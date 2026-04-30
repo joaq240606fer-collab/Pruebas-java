@@ -1,5 +1,10 @@
 {
     "conventionalCommits.scopes": [
-        "POM"
-    ]
+        "POM",
+        "Variables"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+"editor.tokenColorCustomizations": {
+    "comments": "#de3131" // Cambia al color hexadecimal que desees
+}
 }
