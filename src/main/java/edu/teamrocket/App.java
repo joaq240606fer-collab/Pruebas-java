@@ -38,5 +38,24 @@ public class App
 
         System.out.println("la distancia al sol es:" + distanciaAlSol);
         // la diferencia entre int y long es que el tipo int tiene un rango de -2147483648 a 2147483647, mientras que el tipo long tiene un rango de -9223372036854775808 a 9223372036854775807, por lo tanto, el tipo long es más grande que el tipo int, pero también ocupa más memoria, por lo tanto, se recomienda utilizar el tipo long cuando se necesite almacenar un número entero muy grande, y se recomienda utilizar el tipo int cuando se necesite almacenar un número entero que no sea tan grande y se quiera ahorrar memoria.
+
+        boolean isDay= true ; // Declaramos una variable de tipo boolean llamada isDay y le asignamos el valor de true
+
+        boolean isNight = false; // Declaramos una variable de tipo boolean llamada isNight y le asignamos el valor de false
+
+        // en variable de tipo boolean solo se pueden almacenar dos valores, true o false, por lo tanto, se utiliza para representar valores de verdad, es decir, para representar si algo es verdadero o falso, por ejemplo, en este caso estamos utilizando la variable isDay para representar si es de día o no, y la variable isNight para representar si es de noche o no.
+
+        System.out.println("es de día:" + isDay); // Imprimimos en la consola el mensaje "es de día:" seguido del valor de la variable isDay
+        System.out.println("es de noche:" + isNight); // Imprimimos en la consola el mensaje "es de noche:" seguido del valor de la variable isNight
+
+
+        char miInicial = 'R'; // Declaramos una variable de tipo char llamada miInicial y le asignamos el valor de 'R' 
+
+        // las variables de tipo char se utilizan para almacenar un solo carácter, y se deben escribir entre comillas simples, por ejemplo, en este caso estamos utilizando la variable miInicial para almacenar la letra 'R', y al final de la instrucción se coloca un punto y coma para indicar el final de la instrucción.
+
+        System.out.println("mi inicial es:" + miInicial); // Imprimimos en la consola el mensaje "mi inicial es:" seguido del valor de la variable miInicial
+
     }
 }
+
+
