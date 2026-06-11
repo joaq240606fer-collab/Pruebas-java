@@ -2,7 +2,11 @@
     "conventionalCommits.scopes": [
         "POM",
         "Variables",
+<<<<<<< HEAD
         "Strings "
+=======
+        "Strings"
+>>>>>>> 14fac08 (docs(Strings): :memo: Documnetacion susttucion Strings)
     ],
     "java.debug.settings.onBuildFailureProceed": true,
 "editor.tokenColorCustomizations": {
